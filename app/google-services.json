@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "769726862247",
+    "firebase_url": "https://ndaquizapp.firebaseio.com",
+    "project_id": "ndaquizapp",
+    "storage_bucket": "ndaquizapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769726862247:android:efbd0d856520a91b",
+        "android_client_info": {
+          "package_name": "com.Nda.Quiz.App"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769726862247-uu324lipts502slh3km3a57abk3ii488.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Jr2AB9oLnAyvHOZRiw0sMmUBpVgxj_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769726862247-uu324lipts502slh3km3a57abk3ii488.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

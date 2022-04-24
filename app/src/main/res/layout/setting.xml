@@ -1,0 +1,84 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/background_app_5"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="4dp"
+			android:text="Pengaturan Media"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#03A9F4"
+			android:singleLine="true"/>
+		<CheckBox
+			android:id="@+id/checkbox1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:text="Backsound"
+			android:textSize="14sp"
+			android:textColor="#E91E63"/>
+		<CheckBox
+			android:id="@+id/checkbox2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:text="Soundeffect"
+			android:textSize="14sp"
+			android:textColor="#E91E63"/>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="4dp"
+			android:text="Pengaturan UI Jawab Soal"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#03A9F4"
+			android:singleLine="true"/>
+		<CheckBox
+			android:id="@+id/checkbox3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:text="Penghitung Soal"
+			android:textSize="14sp"
+			android:textColor="#E91E63"
+			android:checked="true"/>
+		<CheckBox
+			android:id="@+id/checkbox4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:text="Penghitung Jawaban Benar"
+			android:textSize="14sp"
+			android:textColor="#E91E63"
+			android:checked="true"/>
+		<CheckBox
+			android:id="@+id/checkbox5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:text="Penghitung Jawaban Salah"
+			android:textSize="14sp"
+			android:textColor="#E91E63"
+			android:checked="true"/>
+	</LinearLayout>
+</LinearLayout>
